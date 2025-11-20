@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9dRL6syNIfiUgHGByUdWPlmvNy/c9pGtZ0Gq5ad+Ufs=",
+  "Source": "WebApi-Tarefas",
+  "BasePath": "_content/WebApi-Tarefas",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
