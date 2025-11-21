@@ -1,12 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using WebApi_Tarefas.Model;
+
 
 namespace WebApi_Tarefas.Data
 {
-    public class AppDbContext
+    public class AppDbContext : DbContext
     {
-        
+       public AppDbContext(DbContextOptions<AppDbContext> options) : base(options){}
+       public DbSet<Tarefa> Tarefas { get; set; }
     }
 }
