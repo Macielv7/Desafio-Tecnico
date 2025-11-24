@@ -68,7 +68,7 @@ Certifique-se de ter os seguintes itens instalados em sua máquina:
 
 5.  **Acesso à API:**
 
-      * A API estará disponível no endereço indicado no *output* do comando `dotnet run` (geralmente `http://localhost:api/Tarefa`).
+      * A API estará disponível no endereço indicado no *output* do comando `dotnet run` (`http://localhost:5018/api/Tarefa`).
       * A documentação do **Swagger/OpenAPI** estará acessível em `http://localhost:5018/swagger/index.html`.
 
 ### 📖 Endpoints da API
